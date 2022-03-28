@@ -22,6 +22,8 @@ logic(b);
             if (Number.isInteger(y) === true){
                 a.push(y);
             }
+            else
+                console.log("One or more input is invalid", v)
             } 
         let sum = 0;
         for (let i = 0; i < a.length; i++) {
